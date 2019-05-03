@@ -1,0 +1,35 @@
+{
+  "name": "zenbox/ddd",
+  "description": "Domain Driven Design in PHP",
+  "keywords": [
+    "zenbox",
+    "ddd",
+    "extensions"
+  ],
+  "homepage": "https://github.com/zenbox-group/ddd",
+  "license": "MIT",
+  "type": "library",
+  "require": {
+    "php": "^7.1",
+    "zendframework/zend-code": "^3.3",
+    "beberlei/assert": "^3.2",
+    "ramsey/uuid": "^3.8"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0.1"
+  },
+  "suggest": {
+    "zenbox/doctrine": "Provides Doctrine ORM pack"
+  },
+  "autoload": {
+    "psr-4": {
+      "ZenBox\\Ddd\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ZenBox\\Ddd\\Test\\": "test/",
+      "ZenBox\\Ddd\\Example\\": "example/"
+    }
+  }
+}
