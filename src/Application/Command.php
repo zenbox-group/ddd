@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace ZenBox\Ddd\Application;
 
 use InvalidArgumentException;
+use Laminas\Code\Reflection\DocBlockReflection;
 use ReflectionClass;
 use ReflectionException;
-use Zend\Code\Reflection\DocBlockReflection;
 
 abstract class Command
 {
